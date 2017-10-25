@@ -1,0 +1,1 @@
+Ecrire une fonction qui prend en paramètre une “string” et qui renvoie cette string sous la forme ⇒ “Hello string”

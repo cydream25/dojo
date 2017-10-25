@@ -1,0 +1,6 @@
+Depuis l'ajustement du calendrier grégorien, l'année sera bissextile (elle aura 366 jours)1 :
+
+si l'année est divisible par 4 et non divisible par 100, ou
+si l'année est divisible par 400.
+Sinon, l'année n'est pas bissextile (elle a 365 jours).
+Ecrire une fonction qui renvoie le nombre de jours de l'année rentrée en paramètre
