@@ -23,17 +23,18 @@ class Matrice
         foreach ($this->matrice_tab as $cle_tableau => $tableau){
             foreach ($tableau as $cle_valeur =>  $valeur){
                 if ($operateur == "+")
-                    $valeur += $nombre;
+                    $valeur += $valeur;
                 if ($operateur == "-")
-                    $valeur -= $nombre;
+                    $valeur -= $valeur;
                 if ($operateur == "*")
-                    $valeur *= $nombre;
+                    $valeur += $valeur;
                 if ($operateur == "/")
-                    $valeur /= $nombre;
-                $this->matrice_tab[$cle_tableau][$cle_valeur] = $valeur;
+                    $valeur /= $valeur;
+                $this->matrice_tab[$cle_tableau][$valeur] = $nombre;
             }
 
         }
         return $this;
     }
+    
 }

@@ -20,4 +20,6 @@ class MatriceTest extends PHPUnit_Framework_TestCase
         $matrice2 = new Matrice([[5, 5, 5], [5, 5, 5], [5, 5, 5]]);
         $this->assertEquals($matrice1->calcul('+', 5), $matrice2);
     }
+
+
 }

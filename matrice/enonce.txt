@@ -1,7 +1,7 @@
 Le but de ce dojo est d'exécuter des calculs sur une matrice.
 En entrée:
 - une matrice de 3 par 3 sous forme de tableau : [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
-- une opération à effectuer "+, -"
+- une opération à effectuer "+, -, / , *"
 - une valeur entière à appliquer
 
 en retour une matrice contenant le résultat de l'opération
