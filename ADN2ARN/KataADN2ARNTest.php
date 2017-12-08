@@ -6,7 +6,7 @@
  * Time: 09:31
  */
 require 'KataADN2ARN.php';
-class KataADN2ARNTest  extends PHPUnit_Framework_TestCase
+class KataADN2ARNTest  extends PHPUnit\Framework\TestCase
 {
 
 

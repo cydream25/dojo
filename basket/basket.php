@@ -26,7 +26,7 @@ class basket
                 $prix_remise = $tableau_produit["prix_ht"] * self::REMISE2;
             else
                 $prix_remise = $tableau_produit["prix_ht"];
-            
+
         }
     }
 }
